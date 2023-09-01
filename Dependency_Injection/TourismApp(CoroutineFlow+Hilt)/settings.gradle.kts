@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TourismApp"
+rootProject.name = "TourismApp(CoroutineFLow+Hilt)"
 include(":app")
  

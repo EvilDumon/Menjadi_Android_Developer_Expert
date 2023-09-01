@@ -21,7 +21,7 @@ ext {
     extra["roomVersion"] = "2.5.2"
     extra["retrofitVersion"] = "2.9.0"
     extra["loggingInterceptorVersion"] = "4.9.3"
-    extra["lifecycleVersion"] = "2.6.1"
+    extra["lifecycleVersion"] = "2.2.0"
     extra["rxJavaVersion"] = "2.2.19"
     extra["rxAndroidVersion"] = "2.1.1"
 }

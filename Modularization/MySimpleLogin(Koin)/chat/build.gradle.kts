@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 android {
-    namespace = "com.dicoding.mysimplelogin.chat"
+    namespace = "com.dicoding.mysimplelogin_koin.chat"
     compileSdk = 33
 
     defaultConfig {
