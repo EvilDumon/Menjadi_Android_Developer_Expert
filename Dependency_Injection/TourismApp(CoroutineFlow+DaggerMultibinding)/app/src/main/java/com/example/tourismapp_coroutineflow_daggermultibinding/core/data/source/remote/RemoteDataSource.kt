@@ -1,9 +1,9 @@
-package com.example.tourismapp.core.data.source.remote
+package com.example.tourismapp_coroutineflow_daggermultibinding.core.data.source.remote
 
 import android.util.Log
-import com.example.tourismapp.core.data.source.remote.network.ApiResponse
-import com.example.tourismapp.core.data.source.remote.network.ApiService
-import com.example.tourismapp.core.data.source.remote.response.TourismResponse
+import com.example.tourismapp_coroutineflow_daggermultibinding.core.data.source.remote.network.ApiResponse
+import com.example.tourismapp_coroutineflow_daggermultibinding.core.data.source.remote.network.ApiService
+import com.example.tourismapp_coroutineflow_daggermultibinding.core.data.source.remote.response.TourismResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
