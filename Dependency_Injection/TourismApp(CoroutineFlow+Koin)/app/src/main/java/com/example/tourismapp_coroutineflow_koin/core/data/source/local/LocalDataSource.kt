@@ -5,16 +5,6 @@ import com.example.tourismapp_coroutineflow_koin.core.data.source.local.room.Tou
 import kotlinx.coroutines.flow.Flow
 
 class LocalDataSource(private val tourismDao: TourismDao) {
-
-    companion object {
-        private var instance: LocalDataSource? = null
-
-        fun getInstance(tourismDao: TourismDao): LocalDataSource =
-            instance ?: synchronized(this) {
-                instance ?: LocalDataSource(tourismDao)
-            }
-    }
-
     fun getAllTourism(): Flow<List<TourismEntity>> = tourismDao.getAllTourism()
 
     fun getFavoriteTourism(): Flow<List<TourismEntity>> = tourismDao.getFavoriteTourism()
