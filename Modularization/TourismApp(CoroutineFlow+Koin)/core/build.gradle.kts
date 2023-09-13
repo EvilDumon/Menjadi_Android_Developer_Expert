@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.dicoding.tourismapp.core"
+    namespace = "com.example.tourismapp_coroutineflow_koin.core"
     compileSdk = 33
 
     defaultConfig {

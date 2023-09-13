@@ -1,11 +1,10 @@
 plugins {
     id("com.android.dynamic-feature")
     id("org.jetbrains.kotlin.android")
-    id("kotlin-android-extensions")
     kotlin("kapt")
 }
 android {
-    namespace = "com.dicoding.tourismapp.maps"
+    namespace = "com.example.tourismapp_coroutineflow_koin.maps"
     compileSdk = 33
 
     defaultConfig {
@@ -35,6 +34,7 @@ android {
         viewBinding = true
     }
 }
+
 apply("../shared_dependencies.gradle")
 dependencies {
     implementation(project(":app"))

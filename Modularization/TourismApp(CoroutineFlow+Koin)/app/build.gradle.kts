@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tourismapp"
+    namespace = "com.example.tourismapp_coroutineflow_koin"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.tourismapp"
+        applicationId = "com.example.tourismapp_coroutineflow_koin"
         minSdk = 21
         targetSdk = 33
         versionCode = 1

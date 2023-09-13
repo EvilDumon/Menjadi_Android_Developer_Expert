@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">Tourism App</string>
-
+    <string name="app_name">Tourism App(CoroutineFlow+Koin)</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -11,5 +10,6 @@
     <string name="title_activity_detail_home">DetailHomeActivity</string>
     <string name="no_data">Empty data</string>
     <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="title_map">Map</string>
     <string name="title_maps">Maps</string>
 </resources>
