@@ -38,6 +38,8 @@ android {
 }
 
 dependencies {
+    implementation("com.jakewharton.timber:timber:4.7.1")
+
     implementation("com.google.firebase:firebase-analytics-ktx:21.3.0")
     implementation("com.google.firebase:firebase-crashlytics:18.4.1")
 
